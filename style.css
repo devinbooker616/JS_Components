@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+
+.container {
+    max-width: 30%;
+    max-height: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: solid black 1px;
+    flex-direction: column;
+    background-color: black;
+    border: solid rgba(2, 178, 254, 0.988) 1px;
+    position: relative;
+    bottom: 25rem;
+}
+
+.container2 {
+        max-width: 30%;
+        max-height: 30%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 27%;
+        border: solid black 1px;
+        flex-direction: column;
+        background-color: black;
+        position:relative;
+        bottom: 10rem;
+        margin-right: 25%; 
+}
+
+button {
+    padding: 2%;
+    font-size: 100%;
+    background-color: black;
+    border: solid rgba(2, 178, 254, 0.988) 1px;
+    color: rgba(2, 178, 254, 0.988);
+    outline: none;
+}
+
+span {
+    padding: 2%;
+    font-size: 100%;
+    background-color: black;
+    border: solid rgba(2, 178, 254, 0.988) 1px;
+    color: rgba(2, 178, 254, 0.988);
+    outline: none;
+}
+
+#calander {
+    margin: auto;
+    background-color: black;
+    color: rgba(2, 178, 254, 0.988);
+
+}
+
+#clock {
+    margin: auto;
+    background-color: black;
+    border: solid rgba(2, 178, 254, 0.988) 1px;
+    color: rgba(2, 178, 254, 0.988);
+    padding-right: 40%;
+    padding-left: 44%;
+   
+}
+
+.anlog-clock {
+    width: 30rem;
+    height: 30rem;
+    border: solid rgba(2, 178, 254, 0.988) 20px;
+    border-radius: 50%;
+    margin: 50px auto;
+    padding: 2rem;
+    background-image: url("https://i.kym-cd.com/entries/icons/original/000/029/017/thanos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 40%;
+    position:relative;
+    bottom: 15rem; 
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-5px);
+}
+
+.hand {
+    width: 50%;
+    height: 6px;
+    background: rgba(2, 178, 254, 0.988);
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.5s cubic-bezier(.4,2.08,.55,.44);  
+}
+
+button:active {
+    background-color: lime;
+
+}
+
