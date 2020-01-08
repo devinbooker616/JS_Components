@@ -9,13 +9,13 @@ function counter() {
 }
 
 // Component that shows the current date
-function calander() {
+function calender() {
     const year = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"]
     const week = ["Sun", "Mon", "Tue", "Wed", "Thr", "Fri", "Sat"]
-    const calander = document.getElementById("calander");
+    const calender = document.getElementById("calender");
     const today = new Date();
     const date = week[today.getDay()] + "-" + year[today.getMonth()] + "-" + today.getFullYear();
-    calander.textContent = date;
+    calender.textContent = date;
 };
 
 // Component that displays time in real time
@@ -105,7 +105,7 @@ function newCounters() {
 }
 
 counter();
-calander();
+calender();
 clock();
 analogClockSeconds();
 analogClockMinutes();
