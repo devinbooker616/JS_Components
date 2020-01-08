@@ -56,7 +56,7 @@ span {
     outline: none;
 }
 
-#calander {
+#calender {
     margin: auto;
     background-color: black;
     color: rgba(2, 178, 254, 0.988);
@@ -73,7 +73,7 @@ span {
    
 }
 
-.anlog-clock {
+.analog-clock {
     width: 30rem;
     height: 30rem;
     border: solid rgba(2, 178, 254, 0.988) 20px;
